@@ -1,0 +1,10 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        // "declarationDir": "../../dist/lib1",
+        "composite": true,
+        "rootDir": "src",
+        "outDir": "../../dist/lib1"
+    },
+    "include": ["src"]
+}

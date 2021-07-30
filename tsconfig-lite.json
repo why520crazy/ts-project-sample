@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",   
+    "outDir": "./dist",   
+    "strict": true,                                
+    "noImplicitAny": true,
+    "baseUrl": "./",                            
+    "paths": {
+      "#sample/lib1": ["packages/lib1/src/public-api.ts"],
+      "#sample/lib1/*": ["packages/lib1/src/*"],
+      "@sample/lib1": ["packages/lib1/src/public-api.ts"],
+      "@sample/lib1/*": ["packages/lib1/src/*"]
+    },
+    "rootDirs": ["packages/app/src", "packages/lib1/src", "packages"],  
+    "esModuleInterop": true, 
+    "skipLibCheck": true,                           
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["packages/**/src/**/*.ts"]
+}
