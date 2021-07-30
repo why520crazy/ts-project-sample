@@ -41,3 +41,13 @@ npm run build         // build lib1 and app
 npm run build:lib1    // build lib1
 npm run build:app     // build app
 ```
+
+
+## References
+- https://github.com/microsoft/TypeScript/issues/30693
+- https://github.com/microsoft/TypeScript/issues/21967
+- https://github.com/microsoft/TypeScript/issues/9858
+- https://haseebmajid.dev/blog/better-imports-with-babel-tspath
+- https://stackoverflow.com/questions/60010702/reference-typescript-project-outside-of-the-source-folder
+- https://stackoverflow.com/questions/57422458/error-ts6059-file-is-not-under-rootdir-rootdir-is-expected-to-contain-al/65676678#65676678
+- https://github.com/microsoft/TypeScript/issues/37257
